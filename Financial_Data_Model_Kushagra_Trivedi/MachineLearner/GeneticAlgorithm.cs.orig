@@ -1,0 +1,49 @@
+﻿namespace FDMTermProject.MachineLearner
+{
+    using System;
+    using System.Collections.Generic;
+    using System.Data;
+    using System.Linq;
+    using System.Text;
+    using FDMTermProject.Entities;
+    using FDMTermProject.Interfaces;
+
+    public class GeneticAlgorithm
+    {
+        public GeneticAlgorithm(FinancialSettings financialSettings, int numberOfGenerations, int populationSize)
+        {
+            /// *********************************************
+            /// GDBCup - Code goes here
+            /// *********************************************
+        }
+
+        /// <summary>
+        /// The financial settings for this 
+        /// </summary>
+        public FinancialSettings FinancialSettings
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// The number of generations for the algorighm to run.
+        /// </summary>
+        public int NumberOfGenerations
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// How big the population is
+        /// </summary>
+        public int PopulationSize
+        {
+            get;
+            set;
+        }
+
+
+    }
+}
